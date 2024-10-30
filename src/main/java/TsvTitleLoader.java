@@ -42,17 +42,17 @@ public class TsvTitleLoader implements TitleReader {
                 split[i++],
                 split[i++],
                 split[i++],
-                parseIntOrDefault(split[i++], 0),
-                parseIntOrDefault(split[i++], 0),
+                parseIntOrDefault(split[i++]),
+                parseIntOrDefault(split[i++]),
                 split[i++],
-                parseIntOrDefault(split[i++], 0)
+                parseIntOrDefault(split[i])
         );
     }
 
-    private int parseIntOrDefault(String s, int defaultValue) {
+    private int parseIntOrDefault(String s) {
         if (s.equals("\\N")) {
 
-            return defaultValue;
+            return 0;
         }
         return Integer.parseInt(s);
     }
