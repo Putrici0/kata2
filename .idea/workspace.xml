@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4c33660-d40f-41de-bde2-63d88fd8cbae" name="Changes" comment="All classes finished and tested. IS2 Kata2 completed.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kata2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Title.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kata2/Title.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TitleHistogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kata2/TitleHistogram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TitleReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kata2/TitleReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TotalTitleStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kata2/TotalTitleStatistics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TsvTitleLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kata2/TsvTitleLoader.java" afterDir="false" />
+    <list default="true" id="c4c33660-d40f-41de-bde2-63d88fd8cbae" name="Changes" comment="Classes organized on packages. Classic Layered Organization with Extended Interfaces.">
+      <change beforePath="$PROJECT_DIR$/src/main/java/kata2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kata2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +111,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730293377127</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Classes organized on packages. Classic Layered Organization with Extended Interfaces.">
+      <option name="closed" value="true" />
+      <created>1737023931189</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737023931189</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,6 +137,7 @@
     <MESSAGE value="All classes created." />
     <MESSAGE value="All classes finished and tested." />
     <MESSAGE value="All classes finished and tested. IS2 Kata2 completed." />
-    <option name="LAST_COMMIT_MESSAGE" value="All classes finished and tested. IS2 Kata2 completed." />
+    <MESSAGE value="Classes organized on packages. Classic Layered Organization with Extended Interfaces." />
+    <option name="LAST_COMMIT_MESSAGE" value="Classes organized on packages. Classic Layered Organization with Extended Interfaces." />
   </component>
 </project>
