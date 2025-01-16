@@ -1,8 +1,8 @@
-package kata2;
+package es.software.ulpgc.kata2;
 
-import kata2.implementations.TotalTitleStatistics;
-import kata2.implementations.TsvTitleLoader;
-import kata2.models.Title;
+import es.software.ulpgc.kata2.implementations.TotalTitleStatistics;
+import es.software.ulpgc.kata2.implementations.TsvTitleLoader;
+import es.software.ulpgc.kata2.models.Title;
 
 import java.io.File;
 import java.io.IOException;

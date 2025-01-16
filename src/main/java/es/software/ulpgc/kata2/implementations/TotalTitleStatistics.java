@@ -1,7 +1,7 @@
-package kata2.implementations;
+package es.software.ulpgc.kata2.implementations;
 
-import kata2.models.Title;
-import kata2.interfaces.TitleHistogram;
+import es.software.ulpgc.kata2.models.Title;
+import es.software.ulpgc.kata2.interfaces.TitleHistogram;
 
 import java.util.HashMap;
 import java.util.List;

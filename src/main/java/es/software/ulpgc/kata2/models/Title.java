@@ -1,4 +1,4 @@
-package kata2.models;
+package es.software.ulpgc.kata2.models;
 
 public record Title(String tconst,
                     String titleType,

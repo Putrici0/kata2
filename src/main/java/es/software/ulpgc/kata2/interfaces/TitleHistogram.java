@@ -1,6 +1,6 @@
-package kata2.interfaces;
+package es.software.ulpgc.kata2.interfaces;
 
-import kata2.models.Title;
+import es.software.ulpgc.kata2.models.Title;
 
 import java.util.List;
 import java.util.Map;
