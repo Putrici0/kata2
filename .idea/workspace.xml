@@ -4,18 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4c33660-d40f-41de-bde2-63d88fd8cbae" name="Changes" comment="All classes created.">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Title.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Title.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TitleHistogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TitleHistogram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TitleReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TitleReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TotalTitleStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TotalTitleStatistics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TsvTitleLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TsvTitleLoader.java" afterDir="false" />
+    <list default="true" id="c4c33660-d40f-41de-bde2-63d88fd8cbae" name="Changes" comment="All classes finished and tested. IS2 Kata2 completed.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kata2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Title.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kata2/Title.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TitleHistogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kata2/TitleHistogram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TitleReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kata2/TitleReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TotalTitleStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kata2/TotalTitleStatistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TsvTitleLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kata2/TsvTitleLoader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="printScope" value="4" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -29,9 +34,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Putrici0&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Putrici0/kata2&quot;,
+    &quot;accountId&quot;: &quot;a305754e-9a2f-4fef-80fc-22302776b7e1&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2o9qkLw0EcfvKoePPX9f8GFJWLM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,11 +62,28 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/paull/Desktop/Ingenieria Informática - ULPGC/TERCERO - ASIGNATURAS/PRIMER SEMESTRE/is2 katas/kata2/kata2",
     "onboarding.tips.debug.path": "C:/Users/paull/Desktop/Ingenieria Informática - ULPGC/Tercero/is2 katas/kata2/kata2/src/main/java/Main.java"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kata2.Main" />
+      <module name="kata2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,11 +101,40 @@
       <option name="project" value="LOCAL" />
       <updated>1730292364769</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="All classes finished and tested.">
+      <option name="closed" value="true" />
+      <created>1730293192274</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730293192274</updated>
+    </task>
+    <task id="LOCAL-00003" summary="All classes finished and tested. IS2 Kata2 completed.">
+      <option name="closed" value="true" />
+      <created>1730293377127</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730293377127</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="All classes created." />
-    <option name="LAST_COMMIT_MESSAGE" value="All classes created." />
+    <MESSAGE value="All classes finished and tested." />
+    <MESSAGE value="All classes finished and tested. IS2 Kata2 completed." />
+    <option name="LAST_COMMIT_MESSAGE" value="All classes finished and tested. IS2 Kata2 completed." />
   </component>
 </project>

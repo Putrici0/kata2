@@ -1,3 +1,9 @@
+package kata2;
+
+import kata2.implementations.TotalTitleStatistics;
+import kata2.implementations.TsvTitleLoader;
+import kata2.models.Title;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.List;

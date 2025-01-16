@@ -1,3 +1,8 @@
+package kata2.implementations;
+
+import kata2.models.Title;
+import kata2.interfaces.TitleHistogram;
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;

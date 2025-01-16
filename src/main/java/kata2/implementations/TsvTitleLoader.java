@@ -1,3 +1,8 @@
+package kata2.implementations;
+
+import kata2.models.Title;
+import kata2.interfaces.TitleReader;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
